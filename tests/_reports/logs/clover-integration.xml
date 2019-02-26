@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1551183099">
+  <project timestamp="1551183099">
+    <package name="My_Plugin\Admin_Widgets">
+      <file name="/Users/infinum-denis/Desktop/test-example/widget.php">
+        <class name="My_Plugin\Admin_Widgets\Dashboard_Widget" namespace="My_Plugin\Admin_Widgets" fullPackage="Dashboard">
+          <metrics complexity="7" methods="7" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="5" elements="22" coveredelements="8"/>
+        </class>
+        <line num="27" type="method" name="register" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="31" type="method" name="add_dashboard_widgets" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="41" type="method" name="widget_callback" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="45" type="method" name="widget_control_callback" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="49" type="method" name="get_widget_id" visibility="protected" complexity="1" crap="2" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="53" type="method" name="get_widget_name" visibility="protected" complexity="1" crap="2" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="57" type="method" name="get_widget_callback_args" visibility="protected" complexity="1" crap="2" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <metrics loc="62" ncloc="41" classes="1" methods="7" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="5" elements="22" coveredelements="8"/>
+      </file>
+    </package>
+    <metrics files="1" loc="62" ncloc="41" classes="1" methods="7" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="5" elements="22" coveredelements="8"/>
+  </project>
+</coverage>

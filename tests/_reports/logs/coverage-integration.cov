@@ -1,0 +1,75 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/Users/infinum-denis/Desktop/test-example/widget.php' => 
+  array (
+    28 => 
+    array (
+      0 => 'Dashboard_Widget_Integration_Test::test_dashboard_widget',
+    ),
+    29 => 
+    array (
+      0 => 'Dashboard_Widget_Integration_Test::test_dashboard_widget',
+    ),
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    37 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    42 => 
+    array (
+      0 => 'Dashboard_Widget_Integration_Test::test_dashboard_widget',
+    ),
+    43 => 
+    array (
+      0 => 'Dashboard_Widget_Integration_Test::test_dashboard_widget',
+    ),
+    46 => 
+    array (
+      0 => 'Dashboard_Widget_Integration_Test::test_dashboard_widget',
+    ),
+    47 => NULL,
+    50 => 
+    array (
+    ),
+    51 => NULL,
+    54 => 
+    array (
+    ),
+    55 => NULL,
+    58 => 
+    array (
+    ),
+    59 => NULL,
+  ),
+));
+$coverage->setTests(array (
+  'Dashboard_Widget_Integration_Test::test_dashboard_widget' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/Users/infinum-denis/Desktop/test-example/widget.php' => true,
+));
+
+return $coverage;
